@@ -1,4 +1,4 @@
-package go_callgraph
+package callgraph
 
 import (
 	"fmt"
