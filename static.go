@@ -49,7 +49,7 @@ func NewStatic(m astmatcher.ASTMatcher, opts ...StaticOption) *StaticCallGraph {
 
 	g := newGraph()
 
-	m.Match(flags.FunDeclPattern, func(c astmatcher.Cursor, ctx astmatcher.Ctx) {
+	m.Match(flags.FunDeclPattern, func(c *astmatcher.Cursor, ctx astmatcher.Ctx) {
 		funDecl := c.Node().(*ast.FuncDecl)
 		caller := ctx.ObjectOf(funDecl.Name).(*types.Func)
 		info := ctx.TypeInfo()
@@ -58,7 +58,7 @@ func NewStatic(m astmatcher.ASTMatcher, opts ...StaticOption) *StaticCallGraph {
 			g.addNode(caller)
 		}
 
-		ctx.Match(flags.CallExprPattern, funDecl, func(c matcher.Cursor, ctx *matcher.MatchCtx) {
+		ctx.Match(flags.CallExprPattern, funDecl, func(c *matcher.Cursor, ctx *matcher.MatchCtx) {
 			node := c.Node()
 			callExpr := node.(*ast.CallExpr)
 			calleeObj := typeutil.Callee(info, callExpr)
