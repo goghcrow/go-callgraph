@@ -65,7 +65,7 @@ func NewStatic(m astmatcher.ASTMatcher, opts ...StaticOption) *StaticCallGraph {
 			if calleeObj == nil {
 				l := m.Loader
 				if l.Flags.PrintErrors {
-					errLog("empty callee object: " + l.ShowNodeWithPos(node))
+					errLog("empty callee object: " + ctx.ShowNode(node))
 				}
 				return
 			}
