@@ -1,7 +1,7 @@
 github.com/goghcrow/go-ast-matcher v0.1.1 h1:9C+nl4CW5618pNgWM9gR+8lK3+LNlYRi9G4REakb9z8=
 github.com/goghcrow/go-ast-matcher v0.1.1/go.mod h1:UeGuFBr7DXsTTMxuBsczsfgsteg9pW47bDI3BkseM1I=
-github.com/goghcrow/go-loader v0.0.1 h1:iAYdHE9faqrNszWEQoB+aA0WosSeteZjoy88mLwVptc=
-github.com/goghcrow/go-loader v0.0.1/go.mod h1:Jwk+b7diJUFjz5r/KQuhgb5+UuLSfoe6bb9XPTNp+Bs=
+github.com/goghcrow/go-loader v0.0.2 h1:+QcWnbVZqqjzbGVATfGxTYOkiKpPR6vlPo+oTeMvRZo=
+github.com/goghcrow/go-loader v0.0.2/go.mod h1:Jwk+b7diJUFjz5r/KQuhgb5+UuLSfoe6bb9XPTNp+Bs=
 github.com/goghcrow/go-matcher v0.0.4 h1:Dbgd9KBU3Q8zOUg843ARaAJUWFWs4xeE5Vyh+aL1QUw=
 github.com/goghcrow/go-matcher v0.0.4/go.mod h1:iHjdTemLoaPrEGyq8zQDIR0X6eeyWAYJCSx0kkoFjGw=
 golang.org/x/mod v0.15.0 h1:SernR4v+D55NyBH2QiEQrlBAnj1ECL6AGrA5+dPaMY8=
