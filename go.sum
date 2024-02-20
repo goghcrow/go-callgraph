@@ -1,5 +1,5 @@
-github.com/goghcrow/go-ast-matcher v0.1.1 h1:9C+nl4CW5618pNgWM9gR+8lK3+LNlYRi9G4REakb9z8=
-github.com/goghcrow/go-ast-matcher v0.1.1/go.mod h1:UeGuFBr7DXsTTMxuBsczsfgsteg9pW47bDI3BkseM1I=
+github.com/goghcrow/go-ast-matcher v0.1.3 h1:vLEdt5n0oHg5Z7Vs26glwUpF8xM/XSOvCdbviRry2T0=
+github.com/goghcrow/go-ast-matcher v0.1.3/go.mod h1:Atu9FLpOTbLpP4/qXuc3m24vt7SC0dBkN4OOsTPs+pY=
 github.com/goghcrow/go-loader v0.0.3 h1:sO0Z3v25SHCvUAzzljiwshBnZ/ZunQt2n1WmVVVfPX0=
 github.com/goghcrow/go-loader v0.0.3/go.mod h1:Jwk+b7diJUFjz5r/KQuhgb5+UuLSfoe6bb9XPTNp+Bs=
 github.com/goghcrow/go-matcher v0.0.4 h1:Dbgd9KBU3Q8zOUg843ARaAJUWFWs4xeE5Vyh+aL1QUw=
