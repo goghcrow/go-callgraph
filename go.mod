@@ -3,9 +3,9 @@ module github.com/goghcrow/go-callgraph
 go 1.19
 
 require (
-	github.com/goghcrow/go-ast-matcher v0.1.3
-	github.com/goghcrow/go-loader v0.0.4-0.20240221112352-2db4048c3a47
-	github.com/goghcrow/go-matcher v0.0.5-0.20240221101031-426da64156c9
+	github.com/goghcrow/go-ast-matcher v0.1.4-0.20240221113944-95b2cd70f3a3
+	github.com/goghcrow/go-loader v0.0.4-0.20240221113906-cab11067771f
+	github.com/goghcrow/go-matcher v0.0.5-0.20240221112341-6675288f4167
 	golang.org/x/tools v0.18.0
 )
 
